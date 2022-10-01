@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Codeforces Profile Info</title>
+</head>
+
+<body>
+    <!-- <div class="search">
+        <input type="text" id="username" placeholder="Enter username" required>
+        <button id="searchbtn">Search</button>
+    </div>
+
+    <div class="card">
+        <img src="" id="image" alt="profilePicture">
+        <h1 id="name">UserName</h1>
+        <p id="rank"></p>
+        <p id="rating"></p>
+        <p id="country"></p>
+        <p id="city"></p>
+        <p id="maxRank"></p>
+        <p id="maxRating"></p>
+        <p>
+            <a id="view">Contact</a>
+        </p>
+    </div> -->
+    <div class="search">
+        <input type="text" id="username" placeholder="Enter username" required>
+        <button id="searchbtn">Search</button>
+    </div>
+    <div class="padding disp">
+        <div class="col-md-8">
+            <!-- Column -->
+            <div class="card">
+                <!-- <img class="card-img-top" src="./assets/0f6c1240-462e-47ff-870d-e2d0ebb181f1.jfif" alt="Card image cap" id="cover"> -->
+                <div class="card-body little-profile text-center">
+                    <div class="pro-img">
+                        <img src="./assets/no-avatar.jpeg" alt="user" id="image">
+                    </div>
+                    <h3 class="m-b-0" id="name">UserName</h3>
+                    <p id="rank">Rank</p>
+                    <a href="javascript:void(0)"
+                        class="m-t-10 waves-effect waves-dark btn btn-primary btn-md btn-rounded" data-abc="true" id="visit" target="_blank">Visit
+                        Profile</a>
+                    <div class="row text-center m-t-20">
+                        <div class="col-lg-4 col-md-4 m-t-20">
+                            <h3 class="m-b-0 font-light" id="rating">- - </h3><small>Rating</small>
+                        </div>
+                        <div class="col-lg-4 col-md-4 m-t-20">
+                            <h3 class="m-b-0 font-light" id="maxRank">- - </h3><small>Max Rank</small>
+                        </div>
+                        <div class="col-lg-4 col-md-4 m-t-20">
+                            <h3 class="m-b-0 font-light" id="maxRating">- - </h3><small>Max Rating</small>
+                        </div>
+                        <div class="col-lg-4 col-md-4 m-t-20">
+                            <h3 class="m-b-0 font-light" id="friendOfCount">- - </h3><small>Friends of users</small>
+                        </div>
+                        <div class="col-lg-4 col-md-4 m-t-20">
+                            <h3 class="m-b-0 font-light" id="country">- - </h3><small>Country</small>
+                        </div>
+                        <div class="col-lg-4 col-md-4 m-t-20">
+                            <h3 class="m-b-0 font-light" id="city">- - </h3><small>City</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
